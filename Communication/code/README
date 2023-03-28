@@ -1,0 +1,24 @@
+TP AUTOMATE CENTRALE LILLE G3 SEC
+
+BOYER FRANCOIS
+MAURY TANGUY
+BESSOLES MATTHIEU
+OUSS JEAN-MARIE
+
+Description du projet : 
+TP ayant pour objecif de piloter 4 trains partageant des tronçons et aiguillages en commun, ce qui nécessite l'implémentation d'un gestionnaire de ressource et d'une messageire industrielle,e n plus de la messagerie XWAY pour communiquer avec l'API.
+
+Lancement du code :
+
+Les codes du gestionnaire de ressource et des 4 trains ont été développés pour cette application. Pour lancer le simulateur (sans l'API), avec les trains parcourant leurs trajets, en faisant la demande d'accés au service dédiés, il suffit : 
+
+	
+	1 - Ouvrir 4 terminaux
+		1 - bis - Si plusieurs ordinateurs, pour une simulation fidèle, mettre les bonnes adresses IP dans les codes de chaque train et du serveur. 
+	2 - make en ligne de commande dans le premier
+	3 - ./bin/ressource_manager_2_stat dans le premier
+	4 - ./bin/train_1_stat etc dans les autres
+Laissez tourner !
+
+	
+
